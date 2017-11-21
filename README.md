@@ -1,0 +1,2 @@
+# slider
+Ejemplo slider
