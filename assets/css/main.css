@@ -1,0 +1,75 @@
+
+#slider{
+	position: relative;
+}
+
+#hero{
+	background: grey;
+}
+
+#slider #prev{
+	position: absolute;
+	z-index: 10;
+	width: 6%;
+	height: auto;
+	padding: 10px;
+	opacity: 0.5;
+	left: 20px;
+	top: 50%;
+	transition: all 0.5s;
+	transform: translate(0,-50%);
+}
+
+#slider #next{
+	position: absolute;
+	z-index: 10;
+	width: 6%;
+	height: auto;
+	padding: 10px;
+	opacity: 0.5;
+	right: 20px;
+	top: 50%;
+	transition: all 0.5s;
+	transform: translate(0,-50%)
+}
+
+#slider #prev:hover{
+	background: rgba(0,0,0,0.5);
+	opacity: 1;
+}
+
+#slider #next:hover{
+	background: rgba(0,0,0,0.5);
+	opacity: 1;
+}
+#slider .slide{
+	width: 100%;
+	height: auto;
+	display: none;
+}
+
+.miga{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	margin-left: 10px;
+	border-radius: 100%;
+	background: #B9BFB9;
+	border: 2px solid #ffffff;
+	cursor: pointer;
+}
+
+.miga:first-child{
+	margin-left: 0;
+}
+
+.migasel{
+	background: #418ABF;
+}
+
+#migas{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+}
